@@ -81,7 +81,7 @@ class Game {
 
     //Adding the floor
     const textureLoader = new THREE.TextureLoader();
-    const sandBaseColor = textureLoader.load('.src/floor/floor.jpg');
+    const sandBaseColor = textureLoader.load('./floor/floor.jpg');
 
     const WIDTH = 800
     const LENGTH = 800
